@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Demon Slayer API</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        padding:50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Figtree', sans-serif;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+    img{
+        padding: 20px;
+        width: 500px;
+    }
+   h4{
+    font-size: x-large;
+    font-weight: 200;
+   }
+   
+   .all,
+   .random,
+   .num{
+    background-color: rgb(215, 215, 215);
+    padding: 15px 30px;
+    margin: 20px;
+   }
+   .get{
+    max-width: fit-content;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    padding: 10px;
+    background-color: black;
+   }
+   p{
+    padding:10px 0;
+   }
+
+</style>
+<body>
+    <div class="container">
+        <h1>Demon Slayer Quotes API</h1>
+<img src="/demon.png" alt="">
+
+<h4>Endpoints</h4>
+
+<div class="endpoints-sec">
+<div class="all">
+    <p class="get"> GET/quotes</p>
+    <p>Returns an arrray of all quotes</p>
+    <a href="https://demon-slayer-api.herokuapp.com/quotes">https://demon-slayer-api.herokuapp.com/quotes</a>
+</div>
+
+<div class="random">
+<p class="get"> GET/quotes/random</p>
+<p>Returns a single random quote</p>
+<a href="http://demon-slayer-api.herokuapp.com/quotes/random">http://demon-slayer-api.herokuapp.com/quotes/random</a>
+</div>
+
+<div class="num">
+    <p class="get"> GET/quotes/{num}</p>
+    <p>Returns an array of quotes (which are randomized) with length {num}.</p>
+      <p>  For example, this will return 3 random quotes: </p>
+    <a href="http://demon-slayer-api.herokuapp.com/quotes/3">http://demon-slayer-api.herokuapp.com/quotes/3</a>
+</div>
+</div>
+
+    </div>
+
+</body>
+</html>

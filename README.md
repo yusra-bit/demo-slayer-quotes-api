@@ -2,6 +2,11 @@
 
 > *"The bond between Nezuko and me, can’t be severed by anyone!"*
 
+
+## Host
+
+https://friends-quotes-api.herokuapp.com
+
 ### `GET /quotes`
 
 Returns an array of all quotes.

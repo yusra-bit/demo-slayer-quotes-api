@@ -5,7 +5,7 @@
 
 ## Host
 
-https://friends-quotes-api.herokuapp.com
+https://demon-slayer-api.herokuapp.com
 
 ### `GET /quotes`
 
